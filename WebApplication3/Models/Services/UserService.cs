@@ -13,7 +13,7 @@ namespace WebApplication3.Models.Services
             new User(){ Id = 3, Email = "d@mail.com", Password = "1111", Role = "admin"}
         };
 
-        IEnumerable<User> IUserService.GetAllUsers()
+        /*IEnumerable<User> IUserService.GetAllUsers()
         {
             return _users;
         }
@@ -26,7 +26,7 @@ namespace WebApplication3.Models.Services
         IEnumerable<User> IUserService.GetUsersByRole(string role)
         {
             return _users.Where(user => user.Role == role);
-        }
+        }*/
 
         User IUserService.GetUserByEmail(string email)
         {
