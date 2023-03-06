@@ -13,10 +13,10 @@ namespace WebApplication3.Controllers
             _userService = userService;
         }
 
-        public IActionResult Index()
+        /*public IActionResult Index()
         {
             return View();
-        }
+        }*/
 
         [Route("/")]
         [Route("/login")]
